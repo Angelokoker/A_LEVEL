@@ -2,11 +2,13 @@ package ua.syromiatnikov.hw5;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.Arrays;
 
-class Task2Test {
+class SortingArraysTest {
+    SortingArrays sortingArrays = new SortingArrays();
 
     @Test
     void sortingCheck() {
+
     }
 }
