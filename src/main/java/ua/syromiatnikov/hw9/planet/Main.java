@@ -5,7 +5,7 @@ public class Main {
         Earth earth = new Earth("Yes");
         System.out.println("AccelerationOfGravity " + earth.result);
         System.out.println("atmosphere " + earth.searchAtmosphere());
-        System.out.println("getFreeFallAcceleration "+earth.getFreeFallAcceleration());
+        System.out.println("getFreeFallAcceleration " + earth.getFreeFallAcceleration());
         Mercury mercury = new Mercury("No");
         System.out.println("AccelerationOfGravity " + mercury.result);
         System.out.println("atmosphere " + mercury.searchAtmosphere());
